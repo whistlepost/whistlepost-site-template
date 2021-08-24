@@ -21,5 +21,6 @@ fields:
 - type: text
   name: gaTrackingId
   label: gaTrackingId
+  description: Google Analytics Tracking ID
 pages:
 - content/analytics.json
