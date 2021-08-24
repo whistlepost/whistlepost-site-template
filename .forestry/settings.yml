@@ -4,31 +4,14 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: heading
+  label: Pages
 - type: document
-  path: content/footer.json
-  label: _footer
-  match: "**/*"
-- type: document
-  path: content/masthead.json
-  label: _masthead
-  match: "**/*"
-- type: document
-  path: content/sitemap.json
-  label: _sitemap
-- type: document
-  path: content/robots.json
-  label: _robots
+  path: content/index.json
+  label: Homepage
 - type: document
   path: content/about.json
   label: About
-- type: directory
-  path: content/advertisements
-  label: Advertisements
-  create: all
-  match: "**/list/*"
-  new_doc_ext: json
-  templates:
-  - advertisement
 - type: directory
   path: content/articles
   label: Articles
@@ -38,9 +21,34 @@ sections:
   templates:
   - recipe
   - article
+- type: directory
+  path: content/advertisements
+  label: Advertisements
+  create: all
+  match: "**/list/*"
+  new_doc_ext: json
+  templates:
+  - advertisement
+- type: heading
+  label: Configuration
 - type: document
-  path: content/index.json
-  label: Homepage
+  path: content/masthead.json
+  label: _masthead
+  match: "**/*"
+- type: document
+  path: content/navigation.json
+  label: _navigation
+  match: "**/*"
+- type: document
+  path: content/footer.json
+  label: _footer
+  match: "**/*"
+- type: document
+  path: content/sitemap.json
+  label: _sitemap
+- type: document
+  path: content/robots.json
+  label: _robots
 upload_dir: assets/uploads
 public_path: "/assets/uploads"
 front_matter_path: ''
