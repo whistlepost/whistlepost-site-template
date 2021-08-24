@@ -3,6 +3,10 @@
     {
       "name": "Home",
       "link": "/content/example/index.html"
+    },
+    {
+      "name": "About",
+      "link": "/content/example/about.html"
     }
   ]
 }
