@@ -1,0 +1,13 @@
+---
+label: _analytics
+hide_body: true
+fields:
+- type: text
+  name: sling:resourceType
+  label: sling:resourceType
+- type: text
+  name: jcr:primaryType
+  label: jcr:primaryType
+- type: text
+  name: gaTrackingId
+  label: gaTrackingId

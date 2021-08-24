@@ -2,3 +2,5 @@
 label: _masthead
 hide_body: true
 fields: []
+pages:
+- content/masthead.json
