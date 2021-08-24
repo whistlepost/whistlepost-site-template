@@ -38,3 +38,19 @@ fields:
   label: Keywords
   description: Keywords or tags used to describe this content. Multiple entries in
     a keywords list are typically delimited by commas.
+- name: text
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Text
+  description: The textual content of this CreativeWork.
+- name: image
+  type: file
+  config:
+    maxSize: 64
+  label: Image
+  description: An image of the item.
