@@ -1,3 +1,7 @@
 {
-
+  "sling:resourceType":"wp/robots",
+  "jcr:primaryType":"nt:unstructured",
+  "user-agent": "*",
+  "allow": ["/"],
+  "sitemap": "https://www.example.com/sitemap.xml"
 }
