@@ -11,3 +11,5 @@ fields:
 - type: text
   name: copyright
   label: copyright
+pages:
+- content/footer.json
