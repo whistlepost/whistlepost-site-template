@@ -6,13 +6,13 @@ webhook_url:
 sections:
 - type: document
   path: content/sitemap.json
-  label: sitemap.xml
+  label: _sitemap
 - type: document
   path: content/about.json
   label: About
 - type: document
   path: content/robots.json
-  label: robots.txt
+  label: _robots
 - type: directory
   path: content/advertisements
   label: Advertisements
