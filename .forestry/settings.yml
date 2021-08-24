@@ -9,7 +9,7 @@ sections:
   label: Articles
   create: all
   match: "**/list/*"
-  new_doc_ext: ".json"
+  new_doc_ext: json
 - type: document
   path: content/index.json
   label: Homepage
