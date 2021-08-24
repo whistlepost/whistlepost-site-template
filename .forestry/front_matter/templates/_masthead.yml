@@ -1,6 +1,19 @@
 ---
 label: _masthead
 hide_body: true
-fields: []
+fields:
+- name: image
+  type: file
+  config:
+    maxSize: 10
+  label: Image
+  description: Masthead image file
+- name: alt_text
+  type: text
+  config:
+    required: false
+  label: Alt text
+  description: Accessibility support for page readers
+  default: Masthead image
 pages:
 - content/masthead.json
