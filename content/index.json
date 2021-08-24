@@ -1,7 +1,8 @@
 {
   "title": "My Whistlepost Site",
   "sling:resourceType": "wp/index",
-  "show_advanced_settings": true,
+  "show_advanced_settings": false,
   "jcr:primaryType": "nt:unstructured",
-  "description": ""
+  "description": "",
+  "author": ""
 }
