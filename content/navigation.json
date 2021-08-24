@@ -1,2 +1,8 @@
 {
+  "menu": [
+    {
+      "name": "Home",
+      "link": "/content/example/index.html"
+    }
+  ]
 }
