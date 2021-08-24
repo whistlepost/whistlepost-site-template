@@ -16,3 +16,12 @@ fields:
     max: 
   label: Ingredients
   description: A single ingredient used in the recipe, e.g. sugar, flour or garlic.
+- name: recipeInstructions
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+  label: Instructions
+  description: A step in making the recipe, in the form of a single item (document,
+    video, etc.) or an ordered list with HowToStep and/or HowToSection items.
