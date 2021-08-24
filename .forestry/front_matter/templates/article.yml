@@ -1,4 +1,11 @@
 ---
 label: Article
 hide_body: true
-fields: []
+fields:
+- name: parent
+  type: include
+  config: {}
+  template: creativework
+  label: Parent
+  description: Parent template
+  hidden: true
