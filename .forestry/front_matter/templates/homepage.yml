@@ -6,7 +6,7 @@ fields:
   type: boolean
   label: Show Advanced Settings
   description: Configure additional settings
-- name: sling_resourceType
+- name: sling:resourceType
   type: text
   config:
     required: true
@@ -17,7 +17,7 @@ fields:
   showOnly:
     field: show_advanced_settings
     value: true
-- name: jcr_primaryType
+- name: jcr:primaryType
   type: text
   config:
     required: true
