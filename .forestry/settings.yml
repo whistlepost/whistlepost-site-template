@@ -5,14 +5,22 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: document
+  path: content/footer.json
+  label: _footer
+  match: "**/*"
+- type: document
+  path: content/masthead.json
+  label: _masthead
+  match: "**/*"
+- type: document
   path: content/sitemap.json
   label: _sitemap
 - type: document
-  path: content/about.json
-  label: About
-- type: document
   path: content/robots.json
   label: _robots
+- type: document
+  path: content/about.json
+  label: About
 - type: directory
   path: content/advertisements
   label: Advertisements
