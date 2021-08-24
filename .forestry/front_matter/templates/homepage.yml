@@ -22,7 +22,7 @@ fields:
   config:
     required: true
   label: jcr:primaryType
-  hidden: true
+  hidden: false
   showOnly:
     field: show_advanced_settings
     value: true
