@@ -7,11 +7,9 @@ sections:
 - type: document
   path: content/sitemap.json
   label: sitemap.xml
-  match: "**/*"
 - type: document
   path: content/about.json
   label: About
-  match: "**/*"
 - type: document
   path: content/robots.json
   label: robots.txt
