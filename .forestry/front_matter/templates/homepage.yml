@@ -1,4 +1,28 @@
 ---
 label: Homepage
 hide_body: true
-fields: []
+fields:
+- name: show_advanced_settings
+  type: boolean
+  label: Show Advanced Settings
+  description: Configure additional settings
+- name: sling_resourceType
+  type: text
+  config:
+    required: true
+  label: sling:resourceType
+  description: The Whistlepost page template used to render.
+  hidden: true
+  default: wp/index
+  showOnly:
+    field: show_advanced_settings
+    value: true
+- name: jcr_primaryType
+  type: text
+  config:
+    required: true
+  label: jcr:primaryType
+  hidden: true
+  showOnly:
+    field: show_advanced_settings
+    value: true
