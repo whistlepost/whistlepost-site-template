@@ -1,5 +1,5 @@
 ---
-label: sitemap.xml
+label: _sitemap
 hide_body: true
 fields:
 - name: show_advanced_settings
