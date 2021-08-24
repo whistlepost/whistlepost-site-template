@@ -1,7 +1,10 @@
 {
-  "sling:resourceType":"wp/sitemap",
-  "jcr:primaryType":"nt:unstructured",
+  "sling:resourceType": "wp/sitemap",
+  "jcr:primaryType": "nt:unstructured",
   "change-frequency": "weekly",
   "url-base": "https://www.example.com",
-  "uris": []
+  "uris": [
+
+  ],
+  "show_advanced_settings": false
 }

@@ -27,3 +27,5 @@ fields:
 - type: list
   name: uris
   label: uris
+pages:
+- content/sitemap.json
