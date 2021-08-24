@@ -1,5 +1,5 @@
 {
-  "sling:resourceType":"whistlepost-analytics",
-  "jcr:primaryType":"nt:unstructured",
+  "sling:resourceType": "whistlepost-analytics",
+  "jcr:primaryType": "nt:unstructured",
   "gaTrackingId": "UA-XXXXXX-XX"
 }
