@@ -38,3 +38,5 @@ fields:
     required: false
   label: Description
   description: Page description
+pages:
+- content/index.json
