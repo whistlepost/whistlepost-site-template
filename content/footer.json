@@ -1,0 +1,5 @@
+{
+  "sling:resourceType":"wp/footer",
+  "jcr:primaryType":"nt:unstructured",
+  "copyright": ""
+}
