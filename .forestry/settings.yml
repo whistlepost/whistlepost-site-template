@@ -5,11 +5,22 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: directory
+  path: content/advertisements
+  label: Advertisements
+  create: all
+  match: "**/list/*"
+  new_doc_ext: ".json"
+  templates:
+  - advertisement
+- type: directory
   path: content/articles
   label: Articles
   create: all
   match: "**/list/*"
   new_doc_ext: json
+  templates:
+  - recipe
+  - article
 - type: document
   path: content/index.json
   label: Homepage
