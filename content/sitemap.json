@@ -4,7 +4,8 @@
   "change-frequency": "weekly",
   "url-base": "https://www.example.com",
   "uris": [
-
+    "/index.html",
+    "/about.html"
   ],
   "show_advanced_settings": false
 }
