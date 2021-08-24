@@ -44,6 +44,10 @@ sections:
   label: _footer
   match: "**/*"
 - type: document
+  path: content/analytics.json
+  label: _analytics
+  match: "**/*"
+- type: document
   path: content/sitemap.json
   label: _sitemap
 - type: document
