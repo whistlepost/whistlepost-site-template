@@ -8,3 +8,11 @@ fields:
   template: creativework
   label: Parent
   description: Parent template
+- name: recipeIngredient
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+  label: Ingredients
+  description: A single ingredient used in the recipe, e.g. sugar, flour or garlic.
