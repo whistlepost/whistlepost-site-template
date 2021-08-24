@@ -1,4 +1,40 @@
 ---
 label: CreativeWork
 hide_body: true
-fields: []
+fields:
+- name: abstract
+  type: text
+  config:
+    required: false
+  label: Abstract
+  description: An abstract is a short description that summarizes a <a href="https://schema.org/CreativeWork"
+    target="_blank">CreativeWork</a>.
+- name: author
+  type: text
+  config:
+    required: false
+  label: Author
+  description: The author of this content or rating.
+- name: datePublished
+  type: datetime
+  label: Date Published
+  description: Date of first broadcast/publication.
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+  default: now
+- name: headline
+  type: text
+  config:
+    required: false
+  label: Headline
+  description: Headline of the article.
+- name: keywords
+  type: text
+  config:
+    required: false
+  label: Keywords
+  description: Keywords or tags used to describe this content. Multiple entries in
+    a keywords list are typically delimited by commas.
