@@ -1,4 +1,5 @@
 {
   "image": "/content/example/assets/uploads/2021/08/728x90.png",
-  "alt_text": "Masthead logo image"
+  "alt_text": "Masthead logo image",
+  "favicon_image": "/content/example/assets/uploads/2021/08/favicon.png"
 }
