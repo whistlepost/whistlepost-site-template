@@ -1,5 +1,5 @@
 ---
-label: robots.txt
+label: _robots
 hide_body: true
 fields:
 - name: show_advanced_settings
