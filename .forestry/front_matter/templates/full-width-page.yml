@@ -1,4 +1,8 @@
 ---
 label: Full Width Page
 hide_body: true
-fields: []
+fields:
+- name: show_advanced_settings
+  type: boolean
+  label: Show Advanced Settings
+  description: Configure advanced settings
