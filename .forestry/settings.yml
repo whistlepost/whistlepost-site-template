@@ -25,7 +25,7 @@ sections:
   label: Events
   create: all
   match: "**/list/*"
-  new_doc_ext: ".json"
+  new_doc_ext: json
   templates:
   - event
 - type: directory
@@ -33,7 +33,7 @@ sections:
   label: People
   create: all
   match: "**/list/*"
-  new_doc_ext: ".json"
+  new_doc_ext: json
   templates:
   - person
 - type: directory
@@ -49,7 +49,7 @@ sections:
   label: Products
   create: all
   match: "**/list/*"
-  new_doc_ext: ".json"
+  new_doc_ext: json
   templates:
   - product
 - type: directory
@@ -78,11 +78,11 @@ sections:
   path: content/sitemap.json
   label: _sitemap
 - type: document
-  path: content/robots.json
-  label: _robots
-- type: document
   path: content/feed.json
   label: _feed
+- type: document
+  path: content/robots.json
+  label: _robots
 upload_dir: assets/uploads
 public_path: "/content/example/assets/uploads"
 front_matter_path: ''
