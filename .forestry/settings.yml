@@ -84,9 +84,8 @@ sections:
   path: content/comments.json
   label: _comments
 - type: document
-  path: content/socialmedia.json
-  label: _socialmedia
-  match: "**/*"
+  path: content/social.json
+  label: _social
 - type: document
   path: content/feed.json
   label: _feed
