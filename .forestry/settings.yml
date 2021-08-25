@@ -78,11 +78,11 @@ sections:
   path: content/sitemap.json
   label: _sitemap
 - type: document
-  path: content/feed.json
-  label: _feed
-- type: document
   path: content/robots.json
   label: _robots
+- type: document
+  path: content/feed.json
+  label: _feed
 upload_dir: assets/uploads
 public_path: "/content/example/assets/uploads"
 front_matter_path: ''
