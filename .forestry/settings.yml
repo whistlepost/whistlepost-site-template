@@ -19,16 +19,23 @@ sections:
   match: "**/list/*"
   new_doc_ext: json
   templates:
-  - recipe
   - article
 - type: directory
-  path: content/recipes
-  label: Recipes
+  path: content/events
+  label: Events
   create: all
   match: "**/list/*"
-  new_doc_ext: json
+  new_doc_ext: ".json"
   templates:
-  - recipe
+  - event
+- type: directory
+  path: content/people
+  label: People
+  create: all
+  match: "**/list/*"
+  new_doc_ext: ".json"
+  templates:
+  - person
 - type: directory
   path: content/places
   label: Places
@@ -37,6 +44,22 @@ sections:
   new_doc_ext: json
   templates:
   - advertisement
+- type: directory
+  path: content/product
+  label: Products
+  create: all
+  match: "**/list/*"
+  new_doc_ext: ".json"
+  templates:
+  - product
+- type: directory
+  path: content/recipes
+  label: Recipes
+  create: all
+  match: "**/list/*"
+  new_doc_ext: json
+  templates:
+  - recipe
 - type: heading
   label: Configuration
 - type: document
