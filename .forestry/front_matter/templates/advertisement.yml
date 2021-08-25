@@ -2,9 +2,9 @@
 label: Place
 hide_body: true
 fields:
-- name: address
-  type: text
-  config:
-    required: false
-  label: Address
-  description: Physical address of the item.
+- name: geo
+  type: include
+  config: {}
+  template: geocoordinates
+  label: Geo Coordinates
+  description: The geographic coordinates of a place or event.
