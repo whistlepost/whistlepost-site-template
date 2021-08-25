@@ -22,4 +22,4 @@ fields:
   label: Favicon Image
   description: Icon displayed in browser tab
 pages:
-- content/masthead.json
+- content/branding.json
