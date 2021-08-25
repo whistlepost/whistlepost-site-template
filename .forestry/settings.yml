@@ -81,6 +81,10 @@ sections:
   path: content/robots.json
   label: _robots
 - type: document
+  path: content/comments.json
+  label: _comments
+  match: "**/*"
+- type: document
   path: content/feed.json
   label: _feed
 upload_dir: assets/uploads
