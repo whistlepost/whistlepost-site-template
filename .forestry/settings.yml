@@ -25,7 +25,7 @@ sections:
   label: Categories
   create: all
   match: "**/list/*"
-  new_doc_ext: ".json"
+  new_doc_ext: json
   templates:
   - category
 - type: directory

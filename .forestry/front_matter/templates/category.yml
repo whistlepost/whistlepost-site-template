@@ -1,4 +1,18 @@
 ---
 label: Category
 hide_body: true
-fields: []
+fields:
+- name: name
+  type: text
+  config:
+    required: true
+  label: Name
+  description: A category name
+- name: color
+  type: color
+  label: Color
+  config:
+    required: false
+    color_format: Hex
+  description: A category color
+  default: "#9B9B9B"
