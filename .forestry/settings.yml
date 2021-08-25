@@ -26,7 +26,7 @@ sections:
   label: Recipes
   create: all
   match: "**/list/*"
-  new_doc_ext: ".json"
+  new_doc_ext: json
   templates:
   - recipe
 - type: directory
@@ -60,7 +60,6 @@ sections:
 - type: document
   path: content/feed.json
   label: _feed
-  match: "**/*"
 upload_dir: assets/uploads
 public_path: "/content/example/assets/uploads"
 front_matter_path: ''
