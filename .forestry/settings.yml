@@ -32,8 +32,8 @@ sections:
 - type: heading
   label: Configuration
 - type: document
-  path: content/masthead.json
-  label: _masthead
+  path: content/branding.json
+  label: _branding
 - type: document
   path: content/navigation.json
   label: _navigation
