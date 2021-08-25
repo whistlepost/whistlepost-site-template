@@ -9,3 +9,23 @@ fields:
   label: Location
   description: The location of, for example, where an event is happening, where an
     organization is located, or where an action takes place.
+- name: startDate
+  type: datetime
+  label: Start Date
+  description: The start date and time of the item (in <a href="http://en.wikipedia.org/wiki/ISO_8601"
+    target="_blank">ISO 8601 date format</a>).
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+- name: endDate
+  type: datetime
+  label: End Date
+  description: The end date and time of the item (in <a href="http://en.wikipedia.org/wiki/ISO_8601"
+    target="_blank">ISO 8601 date format</a>).
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
