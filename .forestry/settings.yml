@@ -21,6 +21,14 @@ sections:
   templates:
   - article
 - type: directory
+  path: content/categories
+  label: Categories
+  create: all
+  match: "**/list/*"
+  new_doc_ext: ".json"
+  templates:
+  - category
+- type: directory
   path: content/events
   label: Events
   create: all
