@@ -84,12 +84,12 @@ sections:
   path: content/comments.json
   label: _comments
 - type: document
-  path: content/feed.json
-  label: _feed
-- type: document
   path: content/socialmedia.json
   label: _socialmedia
   match: "**/*"
+- type: document
+  path: content/feed.json
+  label: _feed
 upload_dir: assets/uploads
 public_path: "/content/example/assets/uploads"
 front_matter_path: ''
