@@ -1,5 +1,5 @@
 ---
-label: _masthead
+label: _branding
 hide_body: true
 fields:
 - name: image
