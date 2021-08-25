@@ -1,4 +1,11 @@
 ---
 label: Event
 hide_body: true
-fields: []
+fields:
+- name: location
+  type: include
+  config: {}
+  template: advertisement
+  label: Location
+  description: The location of, for example, where an event is happening, where an
+    organization is located, or where an action takes place.
