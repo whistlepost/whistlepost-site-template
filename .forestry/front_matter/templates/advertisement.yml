@@ -1,4 +1,10 @@
 ---
 label: Place
 hide_body: true
-fields: []
+fields:
+- name: address
+  type: text
+  config:
+    required: false
+  label: Address
+  description: Physical address of the item.
