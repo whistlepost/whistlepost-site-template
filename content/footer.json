@@ -1,5 +1,9 @@
 {
   "sling:resourceType": "wp/footer",
   "jcr:primaryType": "nt:unstructured",
-  "copyright": ""
+  "copyright": "",
+  "show_advanced_settings": false,
+  "license": "",
+  "privacyPolicy": "",
+  "termsOfService": ""
 }

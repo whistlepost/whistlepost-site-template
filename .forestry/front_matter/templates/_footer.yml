@@ -41,5 +41,11 @@ fields:
     required: false
   label: Privacy Policy
   description: Link to privacy policy
+- name: termsOfService
+  type: text
+  config:
+    required: false
+  label: Terms of service
+  description: Link to site terms of service
 pages:
 - content/footer.json
