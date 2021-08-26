@@ -1,5 +1,5 @@
 {
   "sling:resourceType":"wp/category",
-  "title": "Gardening",
-  "colour": "yellow"
+  "name": "Gardening",
+  "color": "yellow"
 }

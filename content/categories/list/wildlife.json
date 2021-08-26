@@ -1,5 +1,5 @@
 {
   "sling:resourceType":"wp/category",
-  "title": "Wildlife",
-  "colour": "#7ED321"
+  "name": "Wildlife",
+  "color": "#7ED321"
 }

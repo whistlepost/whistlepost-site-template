@@ -1,5 +1,5 @@
 {
   "sling:resourceType":"wp/category",
-  "title": "Podcasts",
-  "colour": "yellow"
+  "name": "Podcasts",
+  "color": "yellow"
 }

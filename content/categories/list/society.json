@@ -1,5 +1,5 @@
 {
   "sling:resourceType":"wp/category",
-  "title": "Society",
-  "colour": "purple"
+  "name": "Society",
+  "color": "purple"
 }

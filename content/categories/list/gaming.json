@@ -1,5 +1,5 @@
 {
   "sling:resourceType":"wp/category",
-  "title": "Gaming",
-  "colour": "green"
+  "name": "Gaming",
+  "color": "green"
 }
