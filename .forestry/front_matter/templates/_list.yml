@@ -34,3 +34,5 @@ fields:
     min: 
     max: 
     step: 
+pages:
+- content/articles/2021.json
