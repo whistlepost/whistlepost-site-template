@@ -31,3 +31,5 @@ fields:
       type: pages
       section: articles
   label: Related
+pages:
+- content/articles/test.json
