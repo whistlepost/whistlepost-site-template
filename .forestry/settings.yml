@@ -19,6 +19,7 @@ sections:
   match: "**/list/*"
   new_doc_ext: json
   templates:
+  - _list
   - article
 - type: directory
   path: content/categories
@@ -35,6 +36,7 @@ sections:
   match: "**/list/*"
   new_doc_ext: json
   templates:
+  - _list
   - event
 - type: directory
   path: content/licenses
@@ -51,6 +53,7 @@ sections:
   match: "**/list/*"
   new_doc_ext: json
   templates:
+  - _list
   - person
 - type: directory
   path: content/places
@@ -59,14 +62,16 @@ sections:
   match: "**/list/*"
   new_doc_ext: json
   templates:
+  - _list
   - advertisement
 - type: directory
-  path: content/product
+  path: content/products
   label: Products
   create: all
   match: "**/list/*"
   new_doc_ext: json
   templates:
+  - _list
   - product
 - type: directory
   path: content/recipes
@@ -75,6 +80,7 @@ sections:
   match: "**/list/*"
   new_doc_ext: json
   templates:
+  - _list
   - recipe
 - type: heading
   label: Configuration
