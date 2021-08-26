@@ -1,4 +1,31 @@
 ---
 label: _list
 hide_body: true
-fields: []
+fields:
+- name: sling_resourcetype
+  type: text
+  config:
+    required: false
+  label: sling:resourceType
+  default: wp/article-list
+- name: sling_alias
+  type: text
+  config:
+    required: false
+  label: sling:alias
+  default: current
+- name: sling_vanitypath
+  type: text
+  config:
+    required: false
+  label: sling:vanityPath
+- name: pageSize
+  type: number
+  label: Page Size
+  description: ''
+  default: 6
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
