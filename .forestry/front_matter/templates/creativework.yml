@@ -57,7 +57,7 @@ fields:
     source:
       type: pages
       section: categories
-      file: 
+      file: content/categories/list/finance.json
       path: 
   label: Category
 - name: keywords
