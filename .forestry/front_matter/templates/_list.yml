@@ -1,6 +1,7 @@
 ---
 label: _list
 hide_body: true
+display_field: name
 fields:
 - name: sling:resourcetype
   type: text

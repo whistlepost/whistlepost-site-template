@@ -5,8 +5,13 @@
   "url-base": "https://www.example.com",
   "uris": [
     "/index.html",
+    "/about.html",
     "/articles.html",
-    "/about.html"
+    "/events.html",
+    "/people.html",
+    "/places.html",
+    "/products.html",
+    "/recipes.html"
   ],
   "show_advanced_settings": false
 }
