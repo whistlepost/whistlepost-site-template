@@ -8,6 +8,11 @@ fields:
     required: false
   label: sling:resourceType
   default: wp/article-list
+- name: name
+  type: text
+  config:
+    required: false
+  label: Name
 - name: sling_alias
   type: text
   config:
