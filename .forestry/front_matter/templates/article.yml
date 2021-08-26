@@ -9,3 +9,5 @@ fields:
   label: Parent
   description: Parent template
   hidden: false
+pages:
+- content/articles/test.json
