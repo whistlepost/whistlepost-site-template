@@ -1,7 +1,7 @@
 {
-  "sling:resourceType": "wp/article-list",
+  "sling:resourcetype": "wp/article-list",
   "sling:alias": "current",
   "pageSize": 6,
   "name": "Articles (2021)",
-  "sling:vanityPath": "/articles"
+  "sling_vanitypath": "/articles"
 }
