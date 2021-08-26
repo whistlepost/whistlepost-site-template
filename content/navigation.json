@@ -2,11 +2,11 @@
   "menu": [
     {
       "name": "Home",
-      "link": "/content/example/index.html"
+      "link": "/content/wp/index.html"
     },
     {
       "name": "About Us",
-      "link": "/content/example/about.html"
+      "link": "/content/wp/about.html"
     }
   ]
 }
