@@ -37,6 +37,14 @@ sections:
   templates:
   - event
 - type: directory
+  path: content/licenses
+  label: Licenses
+  create: all
+  match: "**/list/*"
+  new_doc_ext: ".json"
+  templates:
+  - license
+- type: directory
   path: content/people
   label: People
   create: all
