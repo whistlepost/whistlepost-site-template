@@ -1,4 +1,38 @@
 ---
 label: _list
 hide_body: true
-fields: []
+fields:
+- name: sling:resourcetype
+  type: text
+  config:
+    required: false
+  label: sling:resourceType
+  default: wp/article-list
+- name: name
+  type: text
+  config:
+    required: false
+  label: Name
+- name: sling:alias
+  type: text
+  config:
+    required: false
+  label: sling:alias
+  default: current
+- name: sling_vanitypath
+  type: text
+  config:
+    required: false
+  label: sling:vanityPath
+- name: pageSize
+  type: number
+  label: Page Size
+  description: ''
+  default: 6
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+pages:
+- content/articles/2021.json
