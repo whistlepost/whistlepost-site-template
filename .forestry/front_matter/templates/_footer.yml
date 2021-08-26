@@ -20,7 +20,8 @@ fields:
     value: true
 - type: text
   name: copyright
-  label: copyright
+  label: Copyright
+  description: Copyright text
 - name: license
   type: select
   default: []
@@ -34,5 +35,11 @@ fields:
       path: 
   label: License
   description: Site-wide license
+- name: privacyPolicy
+  type: text
+  config:
+    required: false
+  label: Privacy Policy
+  description: Link to privacy policy
 pages:
 - content/footer.json
