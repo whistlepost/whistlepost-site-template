@@ -37,9 +37,9 @@ fields:
   default: ''
   config:
     required: false
-    wysiwyg: false
+    wysiwyg: true
     schema:
-      format: markdown
+      format: html-blocks
   label: Text
   description: The textual content of this CreativeWork.
 - name: image
