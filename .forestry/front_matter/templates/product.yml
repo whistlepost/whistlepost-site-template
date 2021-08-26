@@ -1,4 +1,9 @@
 ---
 label: Product
 hide_body: true
-fields: []
+fields:
+- name: categories
+  type: tag_list
+  default: []
+  label: Categories
+  description: Product categories
