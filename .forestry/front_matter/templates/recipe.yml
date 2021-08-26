@@ -25,3 +25,16 @@ fields:
   label: Instructions
   description: A step in making the recipe, in the form of a single item (document,
     video, etc.) or an ordered list with HowToStep and/or HowToSection items.
+- name: recipeCategory
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: pages
+      section: categories
+      file: 
+      path: 
+  label: Category
+  description: The category of the recipe—for example, appetizer, entree, etc.
