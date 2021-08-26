@@ -16,3 +16,10 @@ fields:
     color_format: Hex
   description: A category color
   default: "#9B9B9B"
+- name: sling_resourcetype
+  type: text
+  config:
+    required: true
+  label: sling:resourceType
+  default: wp/category
+  hidden: true
