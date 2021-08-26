@@ -9,3 +9,25 @@ fields:
   label: Parent
   description: Parent template
   hidden: false
+- name: sidebar
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: pages
+      section: articles
+      file: 
+      path: 
+  label: Sidebar
+- name: related
+  type: list
+  config:
+    use_select: true
+    min: 
+    max: 
+    source:
+      type: pages
+      section: articles
+  label: Related
