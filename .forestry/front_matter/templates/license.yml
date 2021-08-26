@@ -22,6 +22,7 @@ fields:
   label: Logo
   description: License logo
 pages:
+- content/licenses/list/cc-attribution-nc-sharealike.json
 - content/licenses/list/cc-attribution-noderivs.json
 - content/licenses/list/cc-attribution-noncommercial.json
 - content/licenses/list/cc-attribution-sharealike.json
