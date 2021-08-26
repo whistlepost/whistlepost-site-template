@@ -3,9 +3,13 @@ label: CreativeWork
 hide_body: true
 fields:
 - name: abstract
-  type: text
+  type: textarea
+  default: ''
   config:
     required: false
+    wysiwyg: false
+    schema:
+      format: markdown
   label: Abstract
   description: An abstract is a short description that summarizes a <a href="https://schema.org/CreativeWork"
     target="_blank">CreativeWork</a>.
