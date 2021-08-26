@@ -19,6 +19,10 @@ fields:
     required: false
   label: Author
   description: The author of this content or rating.
+- name: published
+  type: boolean
+  label: Published
+  description: Published status of the CreativeWork.
 - name: datePublished
   type: datetime
   label: Date Published
