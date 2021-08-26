@@ -21,5 +21,18 @@ fields:
 - type: text
   name: copyright
   label: copyright
+- name: license
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: pages
+      section: licenses
+      file: 
+      path: 
+  label: License
+  description: Site-wide license
 pages:
 - content/footer.json
