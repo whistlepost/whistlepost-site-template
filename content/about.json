@@ -1,5 +1,25 @@
 {
-  "title":"About Us",
-  "sling:resourceType":"wp/page/full-width",
-  "jcr:primaryType":"nt:unstructured"
+  "title": "About Us",
+  "sling:resourceType": "wp/page/full-width",
+  "jcr:primaryType": "nt:unstructured",
+  "breadcrumb": [
+    "content/index.json",
+    "content/about.json"
+  ],
+  "show_advanced_settings": true,
+  "abstract": "",
+  "author": "",
+  "published": true,
+  "datePublished": "",
+  "headline": "",
+  "text": "",
+  "image": "",
+  "category": "",
+  "keywords": [
+
+  ],
+  "license": "",
+  "relatedLink": [
+
+  ]
 }
