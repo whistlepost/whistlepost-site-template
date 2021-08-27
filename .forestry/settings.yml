@@ -82,6 +82,14 @@ sections:
   templates:
   - _list
   - recipe
+- type: directory
+  path: content/videos
+  label: Videos
+  create: all
+  match: "**/list/*"
+  new_doc_ext: ".json"
+  templates:
+  - videoobject
 - type: heading
   label: Configuration
 - type: document

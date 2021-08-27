@@ -56,6 +56,19 @@ fields:
     maxSize: 64
   label: Image
   description: An image of the item.
+- name: video
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: pages
+      section: videos
+      file: 
+      path: 
+  label: Video
+  description: An embedded video object.
 - name: category
   type: select
   default: []
