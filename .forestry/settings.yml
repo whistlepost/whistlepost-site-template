@@ -22,6 +22,14 @@ sections:
   - _list
   - article
 - type: directory
+  path: content/audio
+  label: Audio
+  create: all
+  match: "**/list/*"
+  new_doc_ext: ".json"
+  templates:
+  - audioobject
+- type: directory
   path: content/categories
   label: Categories
   create: all
@@ -83,8 +91,8 @@ sections:
   - _list
   - recipe
 - type: directory
-  path: content/videos
-  label: Videos
+  path: content/video
+  label: Video
   create: all
   match: "**/list/*"
   new_doc_ext: ".json"
