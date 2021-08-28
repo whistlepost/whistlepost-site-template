@@ -19,6 +19,7 @@ sections:
   match: "**/list/*"
   new_doc_ext: json
   templates:
+  - review
   - _list
   - article
 - type: directory
