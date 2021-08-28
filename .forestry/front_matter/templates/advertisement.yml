@@ -8,3 +8,14 @@ fields:
   template: geocoordinates
   label: Geo Coordinates
   description: The geographic coordinates of a place or event.
+- name: photo
+  type: list
+  config:
+    use_select: true
+    min: 
+    max: 
+    source:
+      type: pages
+      section: gallery
+  label: Photo
+  description: A photograph of this place.

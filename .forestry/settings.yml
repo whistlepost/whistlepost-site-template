@@ -47,6 +47,14 @@ sections:
   - _list
   - event
 - type: directory
+  path: content/gallery
+  label: Gallery
+  create: all
+  match: "**/list/*"
+  new_doc_ext: ".json"
+  templates:
+  - imageobject
+- type: directory
   path: content/licenses
   label: Licenses
   create: all
