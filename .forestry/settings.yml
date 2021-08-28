@@ -51,7 +51,7 @@ sections:
   label: Gallery
   create: all
   match: "**/list/*"
-  new_doc_ext: ".json"
+  new_doc_ext: json
   templates:
   - imageobject
 - type: directory
@@ -67,7 +67,7 @@ sections:
   label: Organizations
   create: all
   match: "**/list/*"
-  new_doc_ext: ".json"
+  new_doc_ext: json
   templates:
   - organization
 - type: directory
