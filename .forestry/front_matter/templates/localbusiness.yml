@@ -7,3 +7,8 @@ fields:
   config: {}
   template: advertisement
   label: Place
+- name: openingHours
+  type: text
+  config:
+    required: false
+  label: Opening Hours
