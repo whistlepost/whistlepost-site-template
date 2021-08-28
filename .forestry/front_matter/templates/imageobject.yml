@@ -1,4 +1,23 @@
 ---
 label: ImageObject
 hide_body: true
-fields: []
+fields:
+- name: thumbnail
+  type: file
+  config:
+    maxSize: 64
+  label: Thumbnail
+  description: Thumbnail image for an image or video.
+- name: caption
+  type: text
+  config:
+    required: false
+  label: Caption
+  description: The caption for this object.
+- name: contentUrl
+  type: text
+  config:
+    required: false
+  label: Content URL
+  description: Actual bytes of the media object, for example the image file or video
+    file.
