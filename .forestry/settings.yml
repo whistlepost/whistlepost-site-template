@@ -63,6 +63,14 @@ sections:
   templates:
   - license
 - type: directory
+  path: content/organizations
+  label: Organizations
+  create: all
+  match: "**/list/*"
+  new_doc_ext: ".json"
+  templates:
+  - organization
+- type: directory
   path: content/people
   label: People
   create: all
