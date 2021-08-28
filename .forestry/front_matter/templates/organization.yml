@@ -22,6 +22,11 @@ fields:
   config:
     required: false
   label: Telephone
+- name: url
+  type: text
+  config:
+    required: false
+  label: URL
 - name: employee
   type: list
   config:
