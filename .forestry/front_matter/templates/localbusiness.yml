@@ -1,4 +1,9 @@
 ---
 label: LocalBusiness
 hide_body: true
-fields: []
+fields:
+- name: place
+  type: include
+  config: {}
+  template: advertisement
+  label: Place
