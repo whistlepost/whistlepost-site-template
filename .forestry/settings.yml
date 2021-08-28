@@ -26,7 +26,7 @@ sections:
   label: Audio
   create: all
   match: "**/list/*"
-  new_doc_ext: ".json"
+  new_doc_ext: json
   templates:
   - audioobject
 - type: directory
@@ -95,7 +95,7 @@ sections:
   label: Video
   create: all
   match: "**/list/*"
-  new_doc_ext: ".json"
+  new_doc_ext: json
   templates:
   - videoobject
 - type: heading
