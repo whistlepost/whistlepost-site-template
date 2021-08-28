@@ -78,6 +78,7 @@ sections:
   match: "**/list/*"
   new_doc_ext: json
   templates:
+  - localbusiness
   - _list
   - advertisement
 - type: directory
