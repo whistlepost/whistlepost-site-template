@@ -7,12 +7,24 @@ fields:
   config: {}
   template: thing
   label: Thing
+- name: givenName
+  type: text
+  config:
+    required: false
+  label: Given Name
+  description: Given name. In the U.S., the first name of a Person.
 - name: additionalName
   type: text
   config:
     required: false
   label: Additional Name
   description: An additional name for a Person, can be used for a middle name.
+- name: familyName
+  type: text
+  config:
+    required: false
+  label: Family Name
+  description: Family name. In the U.S., the last name of a Person.
 - name: address
   type: select
   default: []
@@ -55,12 +67,6 @@ fields:
     required: false
   label: Email
   description: Email address.
-- name: familyName
-  type: text
-  config:
-    required: false
-  label: Family Name
-  description: Family name. In the U.S., the last name of a Person.
 - name: gender
   type: select
   default: []
@@ -84,11 +90,5 @@ fields:
   label: Gender
   description: Gender of something, typically a <a href="https://schema.org/Person"
     target="_blank">Person</a>, but possibly also fictional characters, animals, etc.
-- name: givenName
-  type: text
-  config:
-    required: false
-  label: Given Name
-  description: Given name. In the U.S., the first name of a Person.
 pages:
 - content/people/list/benfortuna.json
