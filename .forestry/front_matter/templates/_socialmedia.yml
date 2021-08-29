@@ -46,6 +46,22 @@ fields:
     showOnly:
       field: platform
       value: Instagram
+  - name: youtubeChannel
+    type: text
+    config:
+      required: false
+    label: YouTube Channel
+    showOnly:
+      field: platform
+      value: YouTube
+  - name: linkedinHandle
+    type: text
+    config:
+      required: false
+    label: LinkedIn Handle
+    showOnly:
+      field: platform
+      value: LinkedIn
   config:
     min: 
     max: 
