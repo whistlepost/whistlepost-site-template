@@ -6,10 +6,11 @@ fields:
   type: text
   config:
     required: true
-  label: Title
-  description: 'Resource name. Consider how you want the URL for the resource to be
-    constructed.<br><br><em>NOTE: Spaces and special characters will be replaced with
-    underscores (_).</em>'
+  label: Page Title
+  description: 'Title of the published page. <br><br><em>NOTE: This is used to construct
+    the resource name, so</em> consider how you want the URL for the resource to be
+    constructed (<em>Spaces and punctuation will be replaced with hyphens (-) and
+    underscores (_)).</em>'
 - name: name
   type: text
   config:
