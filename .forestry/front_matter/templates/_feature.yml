@@ -19,3 +19,5 @@ fields:
       file: 
       path: 
   label: Feature Article
+pages:
+- content/index.json

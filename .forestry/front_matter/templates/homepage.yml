@@ -60,5 +60,3 @@ fields:
       path: 
   label: Feature Article
   description: An article given prominence on the site
-pages:
-- content/index.json

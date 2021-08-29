@@ -4,5 +4,9 @@
   "show_advanced_settings": false,
   "jcr:primaryType": "nt:unstructured",
   "description": "",
-  "author": ""
+  "author": "",
+  "featureArticle": "",
+  "feature": [
+
+  ]
 }
