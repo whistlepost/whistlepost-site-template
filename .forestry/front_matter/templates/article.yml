@@ -15,6 +15,7 @@ fields:
   showOnly:
     field: advanced_configuration
     value: true
+  default: wp/page/article
 - name: creativeWork
   type: include
   config: {}
