@@ -22,7 +22,10 @@ fields:
   type: text
   config:
     required: false
-  label: Site Shortcode
+  label: Disqus Shortcode
   description: Shortcode used to integrate comments on the site.
+  showOnly:
+    field: provider
+    value: Disqus
 pages:
 - content/comments.json
