@@ -2,13 +2,11 @@
 label: Event
 hide_body: true
 fields:
-- name: place
+- name: thing
   type: include
   config: {}
-  template: advertisement
-  label: Place
-  description: The location of, for example, where an event is happening, where an
-    organization is located, or where an action takes place.
+  template: thing
+  label: Thing
 - name: startDate
   type: datetime
   label: Start Date
@@ -41,3 +39,17 @@ fields:
       file: 
       path: 
   label: Category
+- name: location
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: pages
+      section: advertisements
+      file: 
+      path: 
+  label: Location
+  description: The location of, for example, where an event is happening, where an
+    organization is located, or where an action takes place.
