@@ -1,5 +1,5 @@
 ---
-label: Category
+label: _category
 hide_body: true
 display_field: name
 fields:
