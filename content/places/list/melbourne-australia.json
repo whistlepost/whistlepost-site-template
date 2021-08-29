@@ -1,6 +1,6 @@
 {
-  "latitude": 0,
-  "longitude": 0,
+  "latitude": -37.813611,
+  "longitude": 144.963056,
   "title": "Melbourne, Australia",
   "name": "Melbourne",
   "description": "",
@@ -12,5 +12,5 @@
   "photo": [
 
   ],
-  "hasMap": ""
+  "hasMap": "https://www.openstreetmap.org/?mlat=-37.813611&mlon=144.963056&zoom=12#map=12/-37.8136/144.9631"
 }
