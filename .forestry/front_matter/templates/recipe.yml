@@ -2,11 +2,11 @@
 label: Recipe
 hide_body: true
 fields:
-- name: parent
+- name: creativeWork
   type: include
   config: {}
   template: creativework
-  label: Parent
+  label: Creative Work
   description: Parent template
 - name: recipeIngredient
   type: list
