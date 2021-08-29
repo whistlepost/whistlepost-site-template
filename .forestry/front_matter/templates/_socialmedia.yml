@@ -1,4 +1,32 @@
 ---
 label: _social
 hide_body: true
-fields: []
+fields:
+- name: socialNetwork
+  type: field_group_list
+  fields:
+  - name: name
+    type: select
+    default: []
+    config:
+      required: false
+      options:
+      - Facebook
+      - Twitter
+      - Instagram
+      source:
+        type: simple
+        section: 
+        file: 
+        path: 
+    label: Name
+  - name: handle
+    type: text
+    config:
+      required: false
+    label: Handle
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Social Network
