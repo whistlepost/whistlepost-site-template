@@ -2,11 +2,11 @@
 label: Article
 hide_body: true
 fields:
-- name: parent
+- name: creativeWork
   type: include
   config: {}
   template: creativework
-  label: Parent
+  label: CreativeWork
   description: Parent template
   hidden: false
 - name: sidebar
