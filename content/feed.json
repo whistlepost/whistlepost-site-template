@@ -2,7 +2,7 @@
   "sling:resourceType": "wp/feeds/articles",
   "jcr:primaryType": "nt:unstructured",
   "feedEntries": [
-    "/content/articles"
+    "/content/articles/current"
   ],
   "name": "Recent articles",
   "format": "Atom",
