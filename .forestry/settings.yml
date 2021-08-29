@@ -114,7 +114,7 @@ sections:
   label: Services
   create: all
   match: "**/list/*"
-  new_doc_ext: ".json"
+  new_doc_ext: json
   templates:
   - service
 - type: directory
