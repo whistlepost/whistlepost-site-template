@@ -2,6 +2,30 @@
 label: Thing
 hide_body: true
 fields:
+  - name: show_advanced_settings
+    type: boolean
+    label: Show Advanced Settings
+    description: Configure additional settings
+  - name: sling:resourceType
+    type: text
+    config:
+      required: true
+    label: sling:resourceType
+    description: The Whistlepost page template used to render.
+    hidden: false
+    showOnly:
+      field: show_advanced_settings
+      value: true
+  - name: jcr:primaryType
+    type: text
+    config:
+      required: true
+    label: jcr:primaryType
+    hidden: false
+    default: nt:unstructured
+    showOnly:
+      field: show_advanced_settings
+      value: true
 - name: title
   type: text
   config:
