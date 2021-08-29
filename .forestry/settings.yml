@@ -154,6 +154,10 @@ sections:
 - type: document
   path: content/feed.json
   label: _feed
+- type: document
+  path: content/calendar.json
+  label: _calendar
+  match: "**/*"
 upload_dir: assets/uploads
 public_path: "/content/wp/assets/uploads"
 front_matter_path: ''
