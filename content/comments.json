@@ -1,5 +1,5 @@
 {
-  "sling:resourceType":"/libs/whistlepost-comments",
+  "sling:resourceType": "/libs/whistlepost-comments",
   "disqusShortName": "examplecom",
-  "jcr:primaryType":"nt:unstructured"
+  "jcr:primaryType": "nt:unstructured"
 }

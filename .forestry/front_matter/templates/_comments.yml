@@ -2,3 +2,5 @@
 label: _comments
 hide_body: true
 fields: []
+pages:
+- content/comments.json
