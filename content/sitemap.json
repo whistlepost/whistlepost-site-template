@@ -4,20 +4,8 @@
   "change-frequency": "weekly",
   "url-base": "https://www.example.com",
   "uris": [
-    "/index.html",
-    "/about.html",
-    "/articles.html",
-    "/categories.html",
-    "/events.html",
-    "/gallery.html",
-    "/licenses.html",
-    "/organizations.html",
-    "/people.html",
-    "/places.html",
-    "/products.html",
-    "/recipes.html",
-    "/services.html",
-    "/video.html"
+    "content/index.json",
+    "content/articles/2021.json"
   ],
   "show_advanced_settings": false
 }
