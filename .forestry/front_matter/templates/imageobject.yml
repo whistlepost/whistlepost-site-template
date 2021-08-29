@@ -2,6 +2,11 @@
 label: ImageObject
 hide_body: true
 fields:
+- name: thing
+  type: include
+  config: {}
+  template: thing
+  label: Thing
 - name: thumbnail
   type: file
   config:
