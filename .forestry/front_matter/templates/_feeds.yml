@@ -1,5 +1,5 @@
 ---
-label: _feeds
+label: _feed
 hide_body: true
 fields:
 - type: text
