@@ -7,11 +7,17 @@
     "/index.html",
     "/about.html",
     "/articles.html",
+    "/categories.html",
     "/events.html",
+    "/gallery.html",
+    "/licenses.html",
+    "/organizations.html",
     "/people.html",
     "/places.html",
     "/products.html",
-    "/recipes.html"
+    "/recipes.html",
+    "/services.html",
+    "/video.html"
   ],
   "show_advanced_settings": false
 }
