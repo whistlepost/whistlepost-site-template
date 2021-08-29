@@ -2,6 +2,21 @@
   "sling:resourceType": "wp/socialmedia",
   "jcr:primaryType": "nt:unstructured",
   "socialNetwork": [
-
+    {
+      "facebookPage": "tst",
+      "twitterHandle": "",
+      "instagramHandle": "",
+      "youtubeChannel": "",
+      "linkedinHandle": "",
+      "platform": "Facebook"
+    },
+    {
+      "facebookPage": "",
+      "twitterHandle": "",
+      "instagramHandle": "",
+      "youtubeChannel": "tst",
+      "linkedinHandle": "",
+      "platform": "YouTube"
+    }
   ]
 }
