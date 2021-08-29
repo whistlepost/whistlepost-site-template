@@ -16,5 +16,7 @@
   "email": "fortuna@micronode.com",
   "familyName": "",
   "givenName": "",
-  "homeLocation": "content/places/list/melbourne-australia.json"
+  "homeLocation": "content/places/list/melbourne-australia.json",
+  "advanced_configuration": true,
+  "sling:resourceType": "wp/page/person"
 }
