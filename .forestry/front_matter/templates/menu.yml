@@ -2,18 +2,11 @@
 label: Menu
 hide_body: true
 fields:
-- name: name
-  type: text
-  config:
-    required: false
-  label: Name
-  description: The name of the item.
-- name: description
-  type: text
-  config:
-    required: false
-  label: Description
-  description: A description of the item.
+- name: creativeWork
+  type: include
+  config: {}
+  template: creativework
+  label: Creative Work
 - name: hasMenuSection
   type: field_group_list
   fields:
