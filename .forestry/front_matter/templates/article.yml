@@ -6,7 +6,7 @@ fields:
   type: boolean
   label: Advanced Configuration
   description: Show advanced configuration settings.
-- name: sling_resourceType
+- name: sling:resourceType
   type: text
   config:
     required: false
