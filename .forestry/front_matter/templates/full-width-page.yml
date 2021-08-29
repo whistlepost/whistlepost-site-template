@@ -2,10 +2,6 @@
 label: WebPage
 hide_body: true
 fields:
-- name: show_advanced_settings
-  type: boolean
-  label: Show Advanced Settings
-  description: Configure advanced settings
 - name: creativework
   type: include
   config: {}
