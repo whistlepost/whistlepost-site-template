@@ -1,6 +1,7 @@
 ---
 label: Place
 hide_body: true
+display_field: name
 fields:
 - name: advanced_configuration
   type: boolean
