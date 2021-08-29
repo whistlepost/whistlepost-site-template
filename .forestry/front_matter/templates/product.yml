@@ -2,6 +2,11 @@
 label: Product
 hide_body: true
 fields:
+- name: thing
+  type: include
+  config: {}
+  template: thing
+  label: Thing
 - name: category
   type: select
   default: []
