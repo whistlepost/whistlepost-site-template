@@ -7,3 +7,30 @@ fields:
   config: {}
   template: thing
   label: Thing
+- name: areaServed
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: pages
+      section: advertisements
+      file: 
+      path: 
+  label: Area Served
+  description: The geographic area where a service or offered item is provided.
+- name: provider
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: pages
+      section: organizations
+      file: 
+      path: 
+  label: Provider
+  description: The service provider, service operator, or service performer; the goods
+    producer.
