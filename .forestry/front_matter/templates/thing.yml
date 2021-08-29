@@ -7,7 +7,9 @@ fields:
   config:
     required: true
   label: Title
-  description: Resource name
+  description: 'Resource name. Consider how you want the URL for the resource to be
+    constructed.<br><br><em>NOTE: Spaces and special characters will be replaced with
+    underscores (_).</em>'
 - name: name
   type: text
   config:
