@@ -1,4 +1,26 @@
 ---
 label: MediaObject
 hide_body: true
-fields: []
+fields:
+- name: creativeWork
+  type: include
+  config: {}
+  template: creativework
+  label: Creative Work
+- name: playerType
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - Youtube
+    - Vimeo
+    - Spotify
+    - Soundcloud
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Player Type
+  description: Player type required—for example, Flash or Silverlight.
