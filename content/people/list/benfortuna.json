@@ -15,5 +15,6 @@
   "birthDate": "",
   "email": "fortuna@micronode.com",
   "familyName": "",
-  "givenName": ""
+  "givenName": "",
+  "homeLocation": "content/places/list/melbourne-australia.json"
 }
