@@ -90,3 +90,5 @@ fields:
     required: false
   label: Given Name
   description: Given name. In the U.S., the first name of a Person.
+pages:
+- content/people/list/benfortuna.json
