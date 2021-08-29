@@ -5,7 +5,9 @@
   "category": "content/categories/list/technology.json",
   "datePublished": "2021-08-29",
   "keywords": [
-
+    "content",
+    "publishing",
+    "web"
   ],
   "license": "content/licenses/list/cc-attribution.json",
   "video": [
@@ -20,7 +22,7 @@
   "headline": "",
   "image": "",
   "published": false,
-  "text": "<p>When a Web developer thinks about publishing on the World Wide Web we tend to immediately consider the technologies that enable publishing on the Web. Ultimately it is the HTML, CSS and JavaScript that enable the billions of site on the Internet to do what they do.</p><p>So when you engage a Web developer to build a website you are likely to get a site that initially meets requirements, but can be difficult to maintain for anyone except the Web developer. A popular solution to this problem is to use a Content Management System (CMS) which separates the management of the content from the presentation, facilitating easier content updates without requiring Web development skills.</p><p>There are many different Content Management Systems, with a wide-range of target audiences, however popular consumer solutions include Wordpress, Wix.com, Blogger, Drupal, Ghost, and the list goes on. Whilst these solutions can be a great introduction to publishing on the Web, there are some common limitations including limited customization and data portability constraints.</p><p></p>",
+  "text": "<p>When a Web developer thinks about publishing on the World Wide Web we tend to immediately consider the technologies that enable publishing on the Web. Ultimately it is the HTML, CSS and JavaScript that enable the billions of site on the Internet to do what they do.</p><p>So when you engage a Web developer to build a website you are likely to get a site that initially meets requirements, but can be difficult to maintain for anyone except the Web developer. A popular solution to this problem is to use a Content Management System (CMS) which separates the management of the content from the presentation, facilitating easier content updates without requiring Web development skills.</p><p>There are many different Content Management Systems, with a wide-range of target audiences, however popular consumer solutions include Wordpress, Wix.com, Blogger, Drupal, Ghost, and the list goes on. Whilst these solutions can be a great introduction to publishing on the Web, there are some common limitations including limited customization and data portability constraints.</p><p>Another widespread constraint with many Content Management Systems is that they don't provide full separation of content and presentation, in that you often cannot make significant changes to one without changing the other.</p>",
   "related": [
 
   ]
