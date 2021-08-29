@@ -15,6 +15,22 @@ fields:
     required: false
   label: Name
   description: Name of the feed
+- name: format
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - Atom
+    - RSS
+    - JSON
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Format
+  description: Feed format
 - name: feedEntries
   type: list
   config:
