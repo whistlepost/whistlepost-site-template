@@ -17,6 +17,6 @@
   "familyName": "",
   "givenName": "",
   "homeLocation": "content/places/list/melbourne-australia.json",
-  "advanced_configuration": true,
+  "advanced_configuration": false,
   "sling:resourceType": "wp/page/person"
 }
