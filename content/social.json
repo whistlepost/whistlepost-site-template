@@ -1,4 +1,7 @@
 {
   "sling:resourceType": "wp/socialmedia",
-  "jcr:primaryType": "nt:unstructured"
+  "jcr:primaryType": "nt:unstructured",
+  "socialNetwork": [
+
+  ]
 }
