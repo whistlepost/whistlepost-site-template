@@ -9,7 +9,7 @@ fields:
 - name: sling:resourceType
   type: text
   config:
-    required: false
+    required: true
   label: Resource Type
   description: Default resource type used to render page content.
   showOnly:
