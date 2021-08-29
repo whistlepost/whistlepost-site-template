@@ -35,8 +35,11 @@ fields:
   label: Analytics Provider
   description: The service provider for analytics tracking.
 - type: text
-  name: trackingId
-  label: Tracking ID
-  description: Analytics tracking ID
+  name: gaTrackingId
+  label: GA Tracking ID
+  description: Google Analytics ID
+  showOnly:
+    field: provider
+    value: Google Analytics
 pages:
 - content/analytics.json
