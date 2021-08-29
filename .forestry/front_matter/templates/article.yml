@@ -6,6 +6,15 @@ fields:
   type: boolean
   label: Advanced Configuration
   description: Show advanced configuration settings.
+- name: sling_resourceType
+  type: text
+  config:
+    required: false
+  label: Resource Type
+  description: Default resource type used to render page content.
+  showOnly:
+    field: advanced_configuration
+    value: true
 - name: creativeWork
   type: include
   config: {}
