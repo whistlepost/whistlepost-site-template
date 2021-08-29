@@ -24,7 +24,26 @@ fields:
     type: text
     config:
       required: false
-    label: Handle
+    label: Facebook Handle
+    showOnly:
+      field: platform
+      value: Facebook
+  - name: twitterHandle
+    type: text
+    config:
+      required: false
+    label: Twitter Handle
+    showOnly:
+      field: platform
+      value: Twitter
+  - name: instagramHandle
+    type: text
+    config:
+      required: false
+    label: Instagram Handle
+    showOnly:
+      field: platform
+      value: Instagram
   config:
     min: 
     max: 
