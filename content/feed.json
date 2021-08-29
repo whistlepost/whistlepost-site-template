@@ -4,5 +4,6 @@
   "feedEntries": [
     "/content/articles"
   ],
-  "name": "Recent articles"
+  "name": "Recent articles",
+  "format": "Atom"
 }
