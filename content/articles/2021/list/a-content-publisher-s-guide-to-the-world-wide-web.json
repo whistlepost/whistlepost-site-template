@@ -28,5 +28,7 @@
   ],
   "name": "",
   "description": "",
-  "url": ""
+  "url": "",
+  "advanced_configuration": true,
+  "sling_resourceType": "wp/page/article"
 }
