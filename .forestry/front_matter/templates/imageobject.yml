@@ -2,11 +2,11 @@
 label: ImageObject
 hide_body: true
 fields:
-- name: thing
+- name: creativeWork
   type: include
   config: {}
-  template: thing
-  label: Thing
+  template: creativework
+  label: Creative Work
 - name: thumbnail
   type: file
   config:
