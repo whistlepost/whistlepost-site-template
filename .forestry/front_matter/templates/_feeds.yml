@@ -8,3 +8,11 @@ fields:
 - type: text
   name: jcr:primaryType
   label: jcr:primaryType
+- name: feedEntries
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+  label: Feed Entries
+  description: Content paths for feed entries
