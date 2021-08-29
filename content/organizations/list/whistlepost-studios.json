@@ -1,0 +1,13 @@
+{
+  "title": "Whistlepost Studios",
+  "name": "",
+  "description": "",
+  "image": "/content/wp/assets/uploads/2021/08/masthead.png",
+  "url": "https://www.whistlepost.net",
+  "address": "",
+  "email": "info@whistlepost.net",
+  "telephone": "",
+  "employee": [
+    "content/people/list/benfortuna.json"
+  ]
+}
