@@ -2,11 +2,11 @@
 label: Event
 hide_body: true
 fields:
-- name: location
+- name: place
   type: include
   config: {}
   template: advertisement
-  label: Location
+  label: Place
   description: The location of, for example, where an event is happening, where an
     organization is located, or where an action takes place.
 - name: startDate
