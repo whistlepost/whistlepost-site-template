@@ -110,6 +110,14 @@ sections:
   - _list
   - recipe
 - type: directory
+  path: content/services
+  label: Services
+  create: all
+  match: "**/list/*"
+  new_doc_ext: ".json"
+  templates:
+  - service
+- type: directory
   path: content/video
   label: Video
   create: all
