@@ -5,12 +5,7 @@ fields:
 - name: socialNetwork
   type: field_group_list
   fields:
-  - name: handle
-    type: text
-    config:
-      required: false
-    label: Handle
-  - name: name
+  - name: platform
     type: select
     default: []
     config:
@@ -24,7 +19,12 @@ fields:
         section: 
         file: 
         path: 
-    label: Name
+    label: Platform
+  - name: handle
+    type: text
+    config:
+      required: false
+    label: Handle
   config:
     min: 
     max: 
