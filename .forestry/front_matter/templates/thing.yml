@@ -16,3 +16,25 @@ fields:
     required: false
   label: Name
   description: The name of the item.
+- name: description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Description
+  description: A description of the item.
+- name: image
+  type: file
+  config:
+    maxSize: 14
+  label: Image
+  description: An image of the item.
+- name: url
+  type: text
+  config:
+    required: false
+  label: URL
+  description: URL of the item.
