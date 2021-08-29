@@ -27,5 +27,9 @@ fields:
 - type: list
   name: uris
   label: uris
+  config:
+    use_select: true
+    source:
+      type: pages
 pages:
 - content/sitemap.json
