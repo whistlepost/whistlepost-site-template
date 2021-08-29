@@ -16,3 +16,5 @@ fields:
     max: 
   label: Feed Entries
   description: Content paths for feed entries
+pages:
+- content/feed.json

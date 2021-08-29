@@ -1,4 +1,7 @@
 {
   "sling:resourceType": "wp/feeds/articles",
-  "jcr:primaryType": "nt:unstructured"
+  "jcr:primaryType": "nt:unstructured",
+  "feedEntries": [
+
+  ]
 }
