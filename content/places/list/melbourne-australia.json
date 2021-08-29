@@ -10,7 +10,7 @@
   "addressCountry": "Australia",
   "postalCode": "",
   "photo": [
-
+    "content/gallery/list/boats-on-the-bay.json"
   ],
   "hasMap": "https://www.openstreetmap.org/?mlat=-37.813611&mlon=144.963056&zoom=12#map=12/-37.8136/144.9631"
 }
