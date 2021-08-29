@@ -2,6 +2,17 @@
 label: Place
 hide_body: true
 fields:
+- name: thing
+  type: include
+  config: {}
+  template: thing
+  label: Thing
+- name: address
+  type: text
+  config:
+    required: false
+  label: Address
+  description: Physical address of the item.
 - name: geo
   type: include
   config: {}
@@ -19,3 +30,32 @@ fields:
       section: gallery
   label: Photo
   description: A photograph of this place.
+- name: hasMap
+  type: text
+  config:
+    required: false
+  label: Map URL
+  description: A URL to a map of the place.
+- name: latitude
+  type: number
+  label: Latitude
+  description: The latitude of a location. For example <code>37.42242</code> (<a href="https://en.wikipedia.org/wiki/World_Geodetic_System"
+    target="_blank">WGS 84</a>).
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+- name: longitude
+  type: number
+  label: Longitude
+  description: The longitude of a location. For example <code>-122.08585</code> (<a
+    href="https://en.wikipedia.org/wiki/World_Geodetic_System" target="_blank">WGS
+    84</a>).
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
