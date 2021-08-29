@@ -2,6 +2,19 @@
 label: Thing
 hide_body: true
 fields:
+- name: advanced_configuration
+  type: boolean
+  label: Advanced Configuration
+  description: Show advanced configuration settings.
+- name: sling_resourcetype
+  type: text
+  config:
+    required: false
+  label: Resource Type
+  description: Default resource type used to render content.
+  showOnly:
+    field: advanced_configuration
+    value: true
 - name: title
   type: text
   config:
