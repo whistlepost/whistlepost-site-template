@@ -1,4 +1,10 @@
 ---
 label: Thing
 hide_body: true
-fields: []
+fields:
+- name: name
+  type: text
+  config:
+    required: false
+  label: Title
+  description: The name of the item.
