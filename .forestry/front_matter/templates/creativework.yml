@@ -2,11 +2,11 @@
 label: CreativeWork
 hide_body: true
 fields:
-- name: title
-  type: text
-  config:
-    required: false
-  label: Title
+- name: thing
+  type: include
+  config: {}
+  template: thing
+  label: Thing
 - name: abstract
   type: textarea
   default: ''
@@ -32,9 +32,16 @@ fields:
   label: Audio
   description: An embedded audio object.
 - name: author
-  type: text
+  type: select
+  default: []
   config:
     required: false
+    options: []
+    source:
+      type: pages
+      section: people
+      file: 
+      path: 
   label: Author
   description: The author of this content or rating.
 - name: category
@@ -66,12 +73,6 @@ fields:
     required: false
   label: Headline
   description: Headline of the article.
-- name: image
-  type: file
-  config:
-    maxSize: 64
-  label: Image
-  description: An image of the item.
 - name: keywords
   type: tag_list
   default: []
