@@ -1,0 +1,19 @@
+version: "3"
+services:
+  whistlepost:
+    image: "micronode/whistlepost:latest"
+    ports:
+      - "8080:8080"
+    environment:
+      - JAVA_OPTS=-Dsling.run.modes=dev
+    volumes:
+      - ./assets:/wp/assets/wpsite:ro
+      - ./content:/wp/content/wpsite:ro
+
+  autoheal:
+    restart: always
+    image: willfarrell/autoheal
+    environment:
+      - AUTOHEAL_CONTAINER_LABEL=all
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock

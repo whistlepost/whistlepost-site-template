@@ -3,7 +3,7 @@ plugins {
 }
 
 task bundle(type: aQute.bnd.gradle.Bundle) {
-    archiveBaseName.set project.name
+    archiveBaseName.set bundleName
     bndfile = 'bnd.bnd'
     from('content') { into 'SLING-INF/content' }
     from('assets') { into 'assets' }

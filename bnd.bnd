@@ -1,4 +1,4 @@
-Sling-Initial-Content: SLING-INF/content;path:=/content/wp;overwrite:=true
-Sling-Bundle-Resources: /assets/wp;path:=/assets
-Bundle-Name: wp-content
-Bundle-SymbolicName: org.whistlepost.wp-content
+Sling-Initial-Content: SLING-INF/content;path:=/content/wpsite;overwrite:=true
+Sling-Bundle-Resources: /assets/wpsite;path:=/assets
+Bundle-Name: wpsite-content
+Bundle-SymbolicName: org.whistlepost.wpsite-content
