@@ -2,8 +2,8 @@
 label: AudioObject
 hide_body: true
 fields:
-- name: creativeWork
+- name: mediaObject
   type: include
   config: {}
-  template: creativework
-  label: Creative Work
+  template: mediaobject
+  label: MediaObject
