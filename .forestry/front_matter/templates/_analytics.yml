@@ -25,6 +25,8 @@ fields:
     required: false
     options:
     - Google Analytics
+    - Matomo
+    - Open Web Analytics
     source:
       type: simple
       section: 
