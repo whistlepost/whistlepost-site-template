@@ -1,5 +1,7 @@
 {
   "sling:resourceType": "/libs/whistlepost-comments",
   "disqusShortName": "examplecom",
-  "jcr:primaryType": "nt:unstructured"
+  "jcr:primaryType": "nt:unstructured",
+  "provider": "Disqus",
+  "shortcode": ""
 }
