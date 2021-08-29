@@ -47,16 +47,3 @@ fields:
   showOnly:
     field: show_advanced_settings
     value: true
-- name: featureArticle
-  type: select
-  default: []
-  config:
-    required: false
-    options: []
-    source:
-      type: pages
-      section: articles
-      file: 
-      path: 
-  label: Feature Article
-  description: An article given prominence on the site
