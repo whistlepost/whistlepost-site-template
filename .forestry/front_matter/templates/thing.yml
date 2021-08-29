@@ -2,10 +2,6 @@
 label: Thing
 hide_body: true
 fields:
-- name: advanced_configuration
-  type: boolean
-  label: Advanced Configuration
-  description: Show advanced configuration settings.
 - name: title
   type: text
   config:
