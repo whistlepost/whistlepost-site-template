@@ -65,7 +65,7 @@ fields:
   config:
     min: 
     max: 
-    labelField: 
+    labelField: platform
   label: Social Network
 pages:
 - content/social.json
