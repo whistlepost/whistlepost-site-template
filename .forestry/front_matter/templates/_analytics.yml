@@ -18,9 +18,23 @@ fields:
   showOnly:
     field: show_advanced_settings
     value: true
+- name: provider
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - Google Analytics
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Analytics Provider
+  description: The service provider for analytics tracking.
 - type: text
-  name: gaTrackingId
-  label: gaTrackingId
-  description: Google Analytics Tracking ID
+  name: trackingId
+  label: Tracking ID
+  description: Analytics tracking ID
 pages:
 - content/analytics.json
