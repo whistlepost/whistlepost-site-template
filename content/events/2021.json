@@ -1,0 +1,7 @@
+{
+  "sling:resourcetype": "wp/event-list",
+  "sling:alias": "current",
+  "pageSize": 6,
+  "name": "Events (2021)",
+  "sling_vanitypath": "/events.html"
+}

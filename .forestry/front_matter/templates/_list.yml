@@ -37,3 +37,4 @@ fields:
     step: 
 pages:
 - content/articles/2021.json
+- content/events/2021.json
