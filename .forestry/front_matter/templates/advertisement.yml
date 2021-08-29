@@ -59,3 +59,5 @@ fields:
     min: 
     max: 
     step: 
+pages:
+- content/places/list/melbourne-australia.json
