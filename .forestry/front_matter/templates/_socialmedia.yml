@@ -14,17 +14,19 @@ fields:
       - Facebook
       - Twitter
       - Instagram
+      - YouTube
+      - LinkedIn
       source:
         type: simple
         section: 
         file: 
         path: 
     label: Platform
-  - name: handle
+  - name: facebookPage
     type: text
     config:
       required: false
-    label: Facebook Handle
+    label: Facebook Page
     showOnly:
       field: platform
       value: Facebook
