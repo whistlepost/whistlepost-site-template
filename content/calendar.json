@@ -1,0 +1,7 @@
+{
+  "sling:resourceType": "wp/calendar",
+  "jcr:primaryType": "nt:unstructured",
+  "entries": [
+  ],
+  "title": "My Whistlepost Site"
+}
