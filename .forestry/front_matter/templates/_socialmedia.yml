@@ -16,6 +16,10 @@ fields:
       - Instagram
       - YouTube
       - LinkedIn
+      - GitHub
+      - Bitbucket
+      - GitLab
+      - Azure DevOps
       source:
         type: simple
         section: 
@@ -62,6 +66,14 @@ fields:
     showOnly:
       field: platform
       value: LinkedIn
+  - name: githubOrganization
+    type: text
+    config:
+      required: false
+    label: GitHub Organization
+    showOnly:
+      field: platform
+      value: GitHub
   config:
     min: 
     max: 
