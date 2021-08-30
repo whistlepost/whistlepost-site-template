@@ -11,12 +11,18 @@ fields:
       required: false
     label: Display Name
     description: Name of the menu item
-  - name: link
-    type: text
+  - name: target
+    type: select
+    default: []
     config:
       required: false
-    label: Link
-    description: Link to the menu item target
+      options: []
+      source:
+        type: pages
+        section: 
+        file: 
+        path: 
+    label: Target
   config:
     min: 
     max: 
