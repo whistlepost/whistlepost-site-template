@@ -74,6 +74,30 @@ fields:
     showOnly:
       field: platform
       value: GitHub
+  - name: bitbucketWorkspace
+    type: text
+    config:
+      required: false
+    label: Bitbucket Workspace
+    showOnly:
+      field: platform
+      value: Bitbucket
+  - name: gitlabGroup
+    type: text
+    config:
+      required: false
+    label: GitLab Group
+    showOnly:
+      field: platform
+      value: GitLab
+  - name: azureDevopsOrganization
+    type: text
+    config:
+      required: false
+    label: Azure DevOps Organization
+    showOnly:
+      field: platform
+      value: Azure DevOps
   config:
     min: 
     max: 
