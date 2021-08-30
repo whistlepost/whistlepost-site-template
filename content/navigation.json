@@ -2,11 +2,13 @@
   "menu": [
     {
       "name": "Home",
-      "link": "/content/wp/index.html"
+      "link": "/content/wp/index.html",
+      "target": "content/index.json"
     },
     {
       "name": "About Us",
-      "link": "/content/wp/about.html"
+      "link": "/content/wp/about.html",
+      "target": "content/about.json"
     }
   ]
 }
