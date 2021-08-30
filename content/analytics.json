@@ -1,5 +1,7 @@
 {
   "sling:resourceType": "whistlepost-analytics",
   "jcr:primaryType": "nt:unstructured",
-  "gaTrackingId": "UA-XXXXXX-XX"
+  "gaTrackingId": "UA-XXXXXX-XX",
+  "show_advanced_settings": false,
+  "provider": "Google Analytics"
 }
