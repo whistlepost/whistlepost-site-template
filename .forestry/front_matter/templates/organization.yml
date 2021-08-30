@@ -36,6 +36,19 @@ fields:
   config:
     required: false
   label: Telephone
+- name: founder
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: pages
+      section: people
+      file: 
+      path: 
+  label: Founder
+  description: A person who founded this organization.
 - name: employee
   type: list
   config:
