@@ -1,0 +1,10 @@
+{
+  "errorPages": [
+    {
+      "httpStatus": 404,
+      "errorPage": [
+
+      ]
+    }
+  ]
+}
