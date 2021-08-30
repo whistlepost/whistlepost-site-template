@@ -3,20 +3,13 @@
   "jcr:primaryType": "nt:unstructured",
   "socialNetwork": [
     {
-      "facebookPage": "tst",
+      "platform": "GitHub",
+      "facebookPage": "",
       "twitterHandle": "",
       "instagramHandle": "",
       "youtubeChannel": "",
       "linkedinHandle": "",
-      "platform": "Facebook"
-    },
-    {
-      "facebookPage": "",
-      "twitterHandle": "",
-      "instagramHandle": "",
-      "youtubeChannel": "tst",
-      "linkedinHandle": "",
-      "platform": "YouTube"
+      "githubOrganization": "whistlepost"
     }
   ]
 }
