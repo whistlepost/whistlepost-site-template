@@ -1,0 +1,35 @@
+{
+  "sling:resourceType": "wp/page/article",
+  "audio": [
+
+  ],
+  "author": "content/people/list/benfortuna.json",
+  "category": "content/categories/list/technology.json",
+  "datePublished": "2021-08-30",
+  "keywords": [
+    "social networks",
+    "web",
+    "content",
+    "publishing"
+  ],
+  "license": "content/licenses/list/cc-attribution.json",
+  "video": [
+
+  ],
+  "sidebar": [
+
+  ],
+  "advanced_configuration": false,
+  "title": "A Content Publisher's Guide to Social Networks",
+  "name": "",
+  "description": "",
+  "image": "",
+  "url": "",
+  "abstract": "",
+  "headline": "",
+  "published": false,
+  "text": "<p>Social Networking is an umbrella term for Web Applications that consist of user-generated content (a.k.a. Web 2.0), for the purpose of sharing with private and public audiences. </p><p>As this is such a broad category that encompasses many forms of content sharing, it can easily be confused with traditional approaches to content publishing. Some have even suggested that with Social Networks there is no longer a need for traditional Web publishing, however such views can be problematic to long-term content management strategies.</p><p><strong>When to use Social Networks</strong></p><p>Social Networks can be a great tool for acquiring new visits to your published content, however you should be careful not to use the Social Network to replicate your content entirely. There are many reasons for this, including:</p><ul><li><p>Many social networks claim ownership of anything you publish on their platform;</p></li><li><p>Social networks come and go, and increasingly you will need to add additional platforms over time to follow the user base;</p></li><li><p>Social networks generally don't make it easy to export your content in a format that can be used elsewhere.</p></li></ul><p>So as a general rule, use Social Networks to publish content you don't natively support on your own site (e.g. videos, image galleries, etc.), and always direct users to content that you own.</p><p></p><p></p>",
+  "related": [
+
+  ]
+}
