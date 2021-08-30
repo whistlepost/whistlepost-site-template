@@ -1,4 +1,35 @@
 ---
 label: _errorhandling
 hide_body: true
-fields: []
+fields:
+- name: errorPages
+  type: field_group_list
+  fields:
+  - name: httpStatus
+    type: number
+    label: HTTP Status Code
+    description: ''
+    default: 0
+    required: true
+    config:
+      min: 100
+      max: 
+      step: 
+      required: true
+  - name: errorPage
+    type: select
+    default: []
+    config:
+      required: false
+      options: []
+      source:
+        type: pages
+        section: 
+        file: 
+        path: 
+    label: Error Page
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Error Pages
