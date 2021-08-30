@@ -8,6 +8,9 @@
   "email": "info@whistlepost.net",
   "telephone": "",
   "employee": [
-    "content/people/list/benfortuna.json"
-  ]
+
+  ],
+  "advanced_configuration": false,
+  "founder": "content/people/list/benfortuna.json",
+  "sling:resourceType": ""
 }
