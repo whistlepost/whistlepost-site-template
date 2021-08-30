@@ -33,5 +33,3 @@ fields:
     max: 
     labelField: errorPage
   label: Error Pages
-pages:
-- content/errorhandling.json
