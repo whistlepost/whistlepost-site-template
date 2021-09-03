@@ -161,7 +161,7 @@ sections:
   path: content/errorhandling.json
   label: _errorhandling
 upload_dir: assets/uploads
-public_path: "/content/wp/assets/uploads"
+public_path: "/assets/wp-site/uploads"
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":year:/:month:/:filename:"
