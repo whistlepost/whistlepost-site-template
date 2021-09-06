@@ -9,8 +9,8 @@ fields:
   label: Page Title
   description: 'Title of the published page. <br><br><em>NOTE: This is used to construct
     the resource name, so</em> consider how you want the URL for the resource to be
-    constructed (<em>Spaces and punctuation will be replaced with hyphens (-) and
-    underscores (_)).</em>'
+    constructed. <em>Spaces and punctuation will be replaced with hyphens (-) and
+    underscores (_).</em>'
 - name: name
   type: text
   config:
