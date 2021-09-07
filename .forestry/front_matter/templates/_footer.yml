@@ -1,5 +1,5 @@
 ---
-label: _footer
+label: _metadata
 hide_body: true
 fields:
 - name: show_advanced_settings
