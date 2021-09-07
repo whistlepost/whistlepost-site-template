@@ -135,7 +135,7 @@ sections:
   label: _navigation
 - type: document
   path: content/footer.json
-  label: _footer
+  label: _metadata
 - type: document
   path: content/analytics.json
   label: _analytics
