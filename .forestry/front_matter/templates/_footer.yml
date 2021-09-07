@@ -47,5 +47,20 @@ fields:
     required: false
   label: Terms of service
   description: Link to site terms of service
+- name: language
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - en
+    - fr
+    - es
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Language
 pages:
 - content/footer.json
