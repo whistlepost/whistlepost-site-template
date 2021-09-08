@@ -129,34 +129,34 @@ sections:
   label: Configuration
 - type: document
   path: content/branding.json
-  label: _branding
+  label: Branding
 - type: document
   path: content/navigation.json
-  label: _navigation
+  label: Navigation
 - type: document
   path: content/footer.json
-  label: _metadata
+  label: Legal
 - type: document
   path: content/analytics.json
-  label: _analytics
+  label: Analytics
 - type: document
   path: content/sitemap.json
-  label: _sitemap
+  label: Sitemap
 - type: document
   path: content/robots.json
-  label: _robots
+  label: Robots
 - type: document
   path: content/comments.json
-  label: _comments
+  label: Comments
 - type: document
   path: content/social.json
-  label: _social
+  label: Social
 - type: document
   path: content/feed.json
-  label: _feed
+  label: Feed
 - type: document
   path: content/calendar.json
-  label: _calendar
+  label: Calendar
 - type: document
   path: content/errorhandling.json
   label: _errorhandling
