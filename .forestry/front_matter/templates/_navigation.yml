@@ -30,12 +30,13 @@ fields:
   label: Menu Item
   description: Menu items displayed at the top of each page.
 - name: menus
-  type: blocks
-  label: Menus
-  template_types:
-  - license
+  type: list
   config:
-    min: 
-    max: 
+    use_select: true
+    min: 2
+    max: 5
+    source:
+      type: pages
+  label: Menus
 pages:
 - content/navigation.json
