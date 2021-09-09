@@ -14,5 +14,13 @@
       "link": "/content/wp/about.html",
       "target": "content/about.json"
     }
+  ],
+  "menus": [
+    {
+      "template": "license",
+      "name": "test",
+      "url": "",
+      "logo": ""
+    }
   ]
 }
