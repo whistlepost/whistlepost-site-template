@@ -29,5 +29,13 @@ fields:
     labelField: name
   label: Menu Item
   description: Menu items displayed at the top of each page.
+- name: menus
+  type: blocks
+  label: Menus
+  template_types:
+  - license
+  config:
+    min: 
+    max: 
 pages:
 - content/navigation.json
