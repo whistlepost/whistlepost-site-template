@@ -16,11 +16,7 @@
     }
   ],
   "menus": [
-    {
-      "template": "license",
-      "name": "test",
-      "url": "",
-      "logo": ""
-    }
+    "content/articles/2021.json",
+    "content/about.json"
   ]
 }
