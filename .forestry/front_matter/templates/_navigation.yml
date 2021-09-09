@@ -11,7 +11,7 @@ fields:
     source:
       type: pages
   label: Header
-  description: Header navigation links (in addition to the default homepage link).
+  description: Header navigation links.
 - name: footer
   type: list
   config:
