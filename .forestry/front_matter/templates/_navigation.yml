@@ -2,41 +2,25 @@
 label: _navigation
 hide_body: true
 fields:
-- name: menu
-  type: field_group_list
-  fields:
-  - name: name
-    type: text
-    config:
-      required: false
-    label: Display Name
-    description: Name of the menu item
-  - name: target
-    type: select
-    default: []
-    config:
-      required: false
-      options: []
-      source:
-        type: pages
-        section: 
-        file: 
-        path: 
-    label: Target
-  config:
-    min: 
-    max: 
-    labelField: name
-  label: Menu Item
-  description: Menu items displayed at the top of each page.
-- name: menus
+- name: header
   type: list
   config:
     use_select: true
-    min: 2
+    min: 1
     max: 5
     source:
       type: pages
-  label: Menus
+  label: Header
+  description: Header navigation links (in addition to the default homepage link).
+- name: footer
+  type: list
+  config:
+    use_select: true
+    min: 1
+    max: 5
+    source:
+      type: pages
+  label: Footer
+  description: Footer navigation links.
 pages:
 - content/navigation.json
