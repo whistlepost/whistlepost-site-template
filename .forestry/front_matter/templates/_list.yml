@@ -1,5 +1,5 @@
 ---
-label: _list
+label: ItemList
 hide_body: true
 display_field: name
 fields:
@@ -35,5 +35,26 @@ fields:
     min: 
     max: 
     step: 
+- name: filter
+  type: text
+  config:
+    required: false
+  label: Filter
+  default: nt:unstructured[published=true]
+- name: itemListOrder
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - Ascending
+    - Descending
+    - Unordered
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: ItemListOrder
 pages:
 - content/articles/2021.json
