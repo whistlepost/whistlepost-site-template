@@ -3,5 +3,7 @@
   "sling:alias": "current",
   "pageSize": 6,
   "name": "Articles (2021)",
-  "sling_vanitypath": "/articles"
+  "sling_vanitypath": "/articles",
+  "filter": "nt:unstructured[published=true]",
+  "itemListOrder": "Descending"
 }
