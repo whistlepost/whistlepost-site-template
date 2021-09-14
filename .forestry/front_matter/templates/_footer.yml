@@ -36,17 +36,29 @@ fields:
   label: License
   description: Site-wide license
 - name: privacyPolicy
-  type: text
+  type: select
+  default: content/privacy.json
   config:
     required: false
+    options: []
+    source:
+      type: pages
+      section: 
+      file: 
+      path: 
   label: Privacy Policy
-  description: Link to privacy policy
 - name: termsOfService
-  type: text
+  type: select
+  default: content/tos.json
   config:
     required: false
-  label: Terms of service
-  description: Link to site terms of service
+    options: []
+    source:
+      type: pages
+      section: 
+      file: 
+      path: 
+  label: Terms of Service
 - name: language
   type: select
   default: []
