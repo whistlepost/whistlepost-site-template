@@ -1,0 +1,7 @@
+{
+  "title": "Layout",
+  "header": "content/branding.json",
+  "footer": "content/legal.json",
+  "navigation": "content/navigation.json",
+  "sling:resourceType": "wp/layout"
+}

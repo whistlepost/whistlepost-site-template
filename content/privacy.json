@@ -1,0 +1,5 @@
+{
+  "title": "Privacy Policy",
+  "sling:resourceType": "wp/page/full-width",
+  "jcr:primaryType": "nt:unstructured"
+}
