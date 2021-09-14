@@ -3,5 +3,8 @@
   "header": "content/branding.json",
   "footer": "content/legal.json",
   "navigation": "content/navigation.json",
-  "sling:resourceType": "wp/layout"
+  "sling:resourceType": "wp/layout",
+  "sidebar": [
+
+  ]
 }

@@ -133,12 +133,11 @@ sections:
 - type: document
   path: content/layout.json
   label: Layout
-  match: "**/*"
 - type: document
   path: content/navigation.json
   label: Navigation
 - type: document
-  path: content/footer.json
+  path: content/legal.json
   label: Legal
 - type: document
   path: content/analytics.json
