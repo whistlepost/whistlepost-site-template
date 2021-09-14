@@ -4,7 +4,7 @@
   "copyright": "2021 Whistlepost Studios",
   "show_advanced_settings": false,
   "license": "",
-  "privacyPolicy": "",
-  "termsOfService": "",
+  "privacyPolicy": "content/privacy.json",
+  "termsOfService": "content/tos.json",
   "language": "en"
 }
