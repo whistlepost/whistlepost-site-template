@@ -28,3 +28,4 @@ fields:
 pages:
 - content/about.json
 - content/privacy.json
+- content/tos.json
