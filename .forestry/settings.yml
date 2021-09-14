@@ -131,6 +131,10 @@ sections:
   path: content/branding.json
   label: Branding
 - type: document
+  path: content/layout.json
+  label: Layout
+  match: "**/*"
+- type: document
   path: content/navigation.json
   label: Navigation
 - type: document
