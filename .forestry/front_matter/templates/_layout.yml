@@ -4,7 +4,7 @@ hide_body: true
 fields:
 - name: header
   type: select
-  default: []
+  default: content/branding.json
   config:
     required: false
     options: []
@@ -18,7 +18,7 @@ fields:
     document).
 - name: footer
   type: select
-  default: []
+  default: content/legal.json
   config:
     required: false
     options: []
@@ -31,7 +31,7 @@ fields:
   description: Reference to a theme-specific footer configuration (e.g. legal).
 - name: navigation
   type: select
-  default: []
+  default: content/navigation.json
   config:
     required: false
     options: []
