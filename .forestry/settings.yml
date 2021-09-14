@@ -12,6 +12,14 @@ sections:
 - type: document
   path: content/about.json
   label: About
+- type: document
+  path: content/privacy.json
+  label: Privacy Policy
+  match: "**/*"
+- type: document
+  path: content/tos.json
+  label: Terms of Service
+  match: "**/*"
 - type: directory
   path: content/articles
   label: Articles
