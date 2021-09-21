@@ -1,4 +1,9 @@
 ---
 label: HowTo
 hide_body: true
-fields: []
+fields:
+- name: creativeWork
+  type: include
+  config: {}
+  template: creativework
+  label: CreativeWork
