@@ -62,6 +62,14 @@ sections:
   templates:
   - imageobject
 - type: directory
+  path: content/guides
+  label: Guides
+  create: all
+  match: "**/*"
+  new_doc_ext: ".json"
+  templates:
+  - howto
+- type: directory
   path: content/licenses
   label: Licenses
   create: all
