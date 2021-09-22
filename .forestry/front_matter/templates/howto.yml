@@ -20,3 +20,4 @@ fields:
     HowToSection. Supersedes <a href="https://schema.org/steps" title="steps" target="_blank">steps</a>.
 pages:
 - content/guides/how-to-create-a-new-whistlepost-site.json
+- content/guides/how-to-create-a-new-whistlepost-theme.json
