@@ -120,3 +120,4 @@ fields:
   description: An embedded video object.
 pages:
 - content/guides/steps/fork-a-whistlepost-content-repository.json
+- content/guides/steps/fork-a-whistlepost-theme-repository.json
