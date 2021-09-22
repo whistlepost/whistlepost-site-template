@@ -68,6 +68,7 @@ sections:
   match: "**/*"
   new_doc_ext: json
   templates:
+  - creativework
   - howto
 - type: directory
   path: content/licenses
