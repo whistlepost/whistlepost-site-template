@@ -1,0 +1,35 @@
+{
+  "audio": [
+
+  ],
+  "author": [
+
+  ],
+  "category": [
+
+  ],
+  "datePublished": "2021-09-22",
+  "keywords": [
+
+  ],
+  "license": [
+
+  ],
+  "video": [
+
+  ],
+  "title": "How to create a new Whistlepost site",
+  "name": "",
+  "description": "",
+  "image": "",
+  "url": "",
+  "abstract": "",
+  "headline": "",
+  "published": false,
+  "text": "",
+  "steps": [
+    {
+      "text": "<h1>Fork a content repository</h1><p>Whilst you can create a content repository from scratch, it is much easier to fork and modify one of the pre-existing template repositories.</p><p></p>"
+    }
+  ]
+}
