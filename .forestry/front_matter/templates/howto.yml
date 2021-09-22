@@ -7,22 +7,16 @@ fields:
   config: {}
   template: creativework
   label: CreativeWork
-- name: steps
-  type: field_group_list
-  fields:
-  - name: text
-    type: textarea
-    default: ''
-    config:
-      required: false
-      wysiwyg: true
-      schema:
-        format: html-blocks
-    label: Text
+- name: step
+  type: list
   config:
+    use_select: true
     min: 
     max: 
-    labelField: 
+    source:
+      type: pages
   label: Steps
+  description: A single step item (as HowToStep, text, document, video, etc.) or a
+    HowToSection. Supersedes <a href="https://schema.org/steps" title="steps" target="_blank">steps</a>.
 pages:
 - content/guides/how-to-create-a-new-whistlepost-site.json
