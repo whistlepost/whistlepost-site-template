@@ -1,4 +1,28 @@
 ---
 label: GenderType
 hide_body: true
-fields: []
+fields:
+- name: gender
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - Male
+    - Female
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Gender
+  description: Gender of something, typically a <a href="https://schema.org/Person"
+    target="_blank">Person</a>, but possibly also fictional characters, animals, etc.
+    While <a href="https://schema.org/Male" title="https://schema.org/Male" target="_blank">https://schema.org/Male</a>
+    and <a href="https://schema.org/Female" title="https://schema.org/Female" target="_blank">https://schema.org/Female</a>
+    may be used, text strings are also acceptable for people who do not identify as
+    a binary gender. The <a href="https://schema.org/gender" target="_blank">gender</a>
+    property can also be used in an extended sense to cover e.g. the gender of sports
+    teams. As with the gender of individuals, we do not try to enumerate all possibilities.
+    A mixed-gender <a href="https://schema.org/SportsTeam" target="_blank">SportsTeam</a>
+    can be indicated with a text value of "Mixed".
