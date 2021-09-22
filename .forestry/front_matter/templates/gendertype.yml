@@ -10,6 +10,13 @@ fields:
     options:
     - Male
     - Female
+    - Agender
+    - Cisgender
+    - Genderfluid
+    - Genderqueer
+    - Intersex
+    - Gender Non-conforming
+    - Transgender
     source:
       type: simple
       section: 
