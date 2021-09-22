@@ -118,3 +118,5 @@ fields:
       path: 
   label: Video
   description: An embedded video object.
+pages:
+- content/guides/steps/fork-a-whistlepost-content-repository.json
